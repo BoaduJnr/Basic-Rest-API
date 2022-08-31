@@ -1,0 +1,30 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/630dbdf268f4c7b3883eba7b
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "George Boadu Junior",
+    "subscribedToChannel": "Backend Engineering T.V."
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/630db9bb2b821e468e31a66d
+
+###
+
+PATCH http://localhost:3000/subscribers/630dbdf268f4c7b3883eba7b
+Content-Type: application/json
+
+{
+    "name": "George Boadu Junior",
+    "subscribedToChannel" : "Software Engineering"
+    
+}
